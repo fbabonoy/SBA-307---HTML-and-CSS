@@ -1,0 +1,157 @@
+body {
+    padding-top: 5px;
+    padding-inline: 0px;
+    margin: 0px;
+    color: black;
+    text-align: center;
+}
+
+#topBannerH {
+    background-color: black;
+    color: white;
+    display: flex; 
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+#topBannerH > div {
+    width: 50%;
+    text-align: center;
+}
+
+#topBannerH img {
+    height: 450px; 
+    width: 95%;
+    object-fit: cover;
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    /* background-color: red; */
+    border-top: 2px #7b7367 solid;
+    margin-top: 10px ;
+    /* padding-top: 20px; */
+    margin-inline: 5%;
+}
+
+#rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    margin-left: auto;
+}
+
+#home {
+
+}
+
+.navButton {
+    border: none;
+    padding-inline: 15px;
+    padding-block: 10px;
+    color: #7b7367;
+    background-color: #f4f2ec;
+}
+
+.cardHorse {
+    padding-block: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* margin-block: 40px; */
+    background-color: #eeece2;
+    /* padding: 20px; */
+    /* gap: 50px; */
+    text-align: center;
+    position: relative;
+    min-height: 500px;
+}
+
+.cardHorse div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.cardHorse img {
+    /* width: 100%; */
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+    object-fit: contain;
+    position: absolute;
+    max-height: 90%;
+    transition: max-height; 
+}
+
+.cardHorse img:hover {
+    transition-duration: 2s;
+    max-height: 50%;
+}
+
+.leftText {
+    width: 50%;
+}
+
+#topText {
+    position: absolute;
+    text-align: center;
+    width: 40%; 
+}
+
+#topText > p {
+    color: white;
+    text-shadow: 1px 1px 4px #683222;
+}
+
+#banner {
+    background-color: black;
+    padding-block: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullImg {
+    width: 90%;
+    border-radius: 20px;
+}
+
+#menuIcon {
+    width: 50px;
+
+}
+
+#bannerBrightess{
+    filter: brightness(50%);
+}
+
+#topImage {
+    border-radius: 20px;
+}
+
+#webName {
+    margin-right: auto;
+    /* width: 100px; */
+    /* height: 100%; */
+}
+
+#webName > img {
+    width: 15%;
+}
+
+
+#servicesTable {
+padding: 5%;
+background-color: black;
+}

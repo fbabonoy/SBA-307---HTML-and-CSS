@@ -1,0 +1,94 @@
+body {
+    /* padding: 40px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeece2;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 30px;
+    padding: 0;
+    border-radius: 50px;
+    box-shadow: 8px 10px 10px gray;
+    background-color: rgb(238, 235, 235);
+    /* filter: invert(100%); */
+    /* transition: all; */
+    animation-name: rotate;
+    animation-duration: 3s;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate3d(0);
+    }
+    100% {
+      transform: rotate3d(0, 1, 0, 360deg);;
+    }
+  }
+
+
+
+#card {
+    text-align: center;
+    border: 1px solid rgb(213, 211, 211);
+    width: 30%;
+    height: 35%;
+    background-color: rgb(244, 242, 242);
+    box-shadow: 3px 3px 8px rgb(147, 146, 146);
+    border-radius: 10px;
+
+}
+
+#cardInfo {
+    position: relative;
+    bottom: 20px;
+}
+
+p {
+    font-weight: bold;
+    padding-bottom: 20;
+}
+
+button {
+    width: 50%;
+    background-color: #1c1612;
+    color: white;
+    box-shadow: 2px 2px 4px gray;
+}
+
+button:hover {
+    background-color: #452004;
+}
+
+input {
+    width: 45%;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 2px 2px 4px gray;
+}
+
+input::placeholder {
+    text-align: center;
+    color: gray;
+}
+
+.tile {
+    /* width: 40%; */
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+a {
+  color: rgb(152, 101, 8);
+}
